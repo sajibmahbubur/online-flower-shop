@@ -1,38 +1,83 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
-.primary-text{
+.primary-text {
     color: #E55473;
+}
+.primary-button{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
 }
 
 
 /* nav related styles, this extra navigation bar section included for bonus marks. */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 50px;
 }
-.nav-title{
+
+.nav-title {
     color: #272727;
     font-size: 45px;
     font-weight: 900;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #272727;
 }
 
 /* header related styles */
-.header{
-    background-color: rgba(229, 84, 115, 0.10);;
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+
+.banner {
+    padding: 0px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 708px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
+.banner-photo {
+    width: 635px;
+    height: 700px;
 }
