@@ -1,0 +1,38 @@
+/* common shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.primary-text{
+    color: #E55473;
+}
+
+
+/* nav related styles, this extra navigation bar section included for bonus marks. */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.nav-title{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 900;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #272727;
+}
+
+/* header related styles */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);;
+}
