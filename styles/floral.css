@@ -187,8 +187,21 @@ main {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-content{
+
+.hot-deal-content {
     max-width: 600px;
     align-content: center center;
     text-align: center;
+}
+
+/* instagram  section styles */
+.insta-img {
+    
+}
+.insta{
+    display: flex;
+    list-style: none;
+}
+.insta-li{
+    margin-left: 50px;
 }
