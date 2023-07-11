@@ -164,7 +164,7 @@ main {
 }
 
 /* support section */
-.support{
+.support {
     display: flex;
     justify-content: space-around;
     padding: 80px;
@@ -172,6 +172,23 @@ main {
     background: rgba(39, 39, 39, 0.05);
     margin: 130px auto;
 }
-.support-info{
+
+.support-info {
+    text-align: center;
+}
+
+/* hot deal section styles */
+
+.hot-deal-banner {
+    padding: 100px 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-content{
+    max-width: 600px;
+    align-content: center center;
     text-align: center;
 }
