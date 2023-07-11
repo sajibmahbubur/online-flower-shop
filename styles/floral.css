@@ -221,3 +221,29 @@ main {
     margin-left: 290px;
     padding-bottom: 120px;
 }
+
+/* footer related styles */
+.footer{
+    background-color: #111010;
+    text-align: center;
+}
+.foot-title{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+.foot-description{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.copyright{
+    color: #FFFFFF66;
+    margin-top: 24px;
+    padding-bottom: 100px;
+}
