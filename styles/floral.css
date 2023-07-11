@@ -162,3 +162,16 @@ main {
     font-size: 24px;
     font-weight: 700;
 }
+
+/* support section */
+.support{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px auto;
+}
+.support-info{
+    text-align: center;
+}
