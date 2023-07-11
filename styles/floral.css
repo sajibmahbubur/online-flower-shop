@@ -203,5 +203,21 @@ main {
     list-style: none;
 }
 .insta-li{
-    margin-left: 50px;
+    margin-left: 10px;
+}
+
+/* get latest deal section styles */
+.subscribe{
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+.sub-title{
+    padding-top: 122px;
+}
+.email{
+    padding: 22px 512px 22px 22px;
+}
+.email-sub{
+    margin-left: 290px;
+    padding-bottom: 120px;
 }
