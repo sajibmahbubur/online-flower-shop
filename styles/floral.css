@@ -6,7 +6,8 @@ body {
 .primary-text {
     color: #E55473;
 }
-.primary-button{
+
+.primary-button {
     border-radius: 8px;
     background: #E55473;
     border: 0;
@@ -15,7 +16,6 @@ body {
     font-weight: 700;
     padding: 20px 43px;
 }
-
 
 /* nav related styles, this extra navigation bar section included for bonus marks. */
 nav {
@@ -52,10 +52,11 @@ nav a {
 }
 
 .banner {
-    padding: 0px 180px;
+    padding: 0px 240px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 .banner-content {
@@ -79,5 +80,85 @@ nav a {
 
 .banner-photo {
     width: 635px;
-    height: 700px;
+}
+
+/* main section styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* our featured flowers styles */
+
+.featured-title {
+    margin-top: 178px;
+    margin-bottom: 0px;
+}
+
+.featured-description {
+    margin-top: 24px;
+}
+
+.featured-block-container {
+    display: flex;
+    gap: 24px;
+}
+
+.featured-block {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bolck-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    background-image: url(../assets/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.block-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    background-image: url(../assets/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.block-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    background-image: url(../assets/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.block-name-container {
+    display: flex;
+    gap: 307px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+
+.block-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
 }
